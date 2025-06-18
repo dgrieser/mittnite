@@ -20,4 +20,4 @@ jobs:
         uses: goreleaser/goreleaser-action@v5
         with:
           version: v1.26.2
-          args: release --clean --verbose
+          args: release --clean --verbose --skip=publish
