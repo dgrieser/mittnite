@@ -12,8 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: docker login -u "${{ secrets.QUAY_IO_USER }}" -p "${{ secrets.QUAY_IO_TOKEN }}" quay.io
-
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
