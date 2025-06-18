@@ -22,4 +22,4 @@ jobs:
           version: v1.26.2
           args: release --clean --verbose
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_USER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}
